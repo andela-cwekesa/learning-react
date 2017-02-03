@@ -1,0 +1,8 @@
+bug fixes:
+
+- add devServer: {
+      historyApiFallback: true
+  }
+to webpack config to resolve routing.
+
+- add browserHistory a module from react-router in the main outer router in routes.js file
